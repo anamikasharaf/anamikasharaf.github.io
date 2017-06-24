@@ -48,9 +48,6 @@ header {
   margin-bottom: 2cm;
   text-align: center;
   height: 200px;
-  -webkit-background-size: small;
-  -moz-background-size: small;
-  -o-background-size: small;
   background-size: small;
  
 }
