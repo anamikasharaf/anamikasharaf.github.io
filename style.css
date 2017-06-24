@@ -47,6 +47,10 @@ header {
   background-position: center center;
   margin-bottom: 2cm;
   text-align: center;
+  background-size: large;
+  -webkit-background-size: large;
+  -moz-background-size: large;
+  -o-background-size: large;
   
  
 }
