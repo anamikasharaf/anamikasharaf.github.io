@@ -43,7 +43,6 @@ hr {
 
 header {
   background-color: #999;
-  background-image: url(img/background.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   -webkit-background-size: cover;
