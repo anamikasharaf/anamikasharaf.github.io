@@ -45,10 +45,6 @@ header {
   background-color: #999;
   background-repeat: no-repeat;
   background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
   margin-bottom: 2cm;
   text-align: center;
   height: 50px;
