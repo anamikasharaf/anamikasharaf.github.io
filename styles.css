@@ -216,7 +216,7 @@ header, nav, footer, section, article, div {
 .work-experience-box {
   background-image: url("./images/regular_background.jpg");
   width: 80%;
-  height: 400px;
+  height: 450px;
   padding-left: 3.5em;
   padding-right: 3.5em;
   margin-left: auto;
@@ -269,7 +269,7 @@ header, nav, footer, section, article, div {
 .research-box {
   background-image: url("./images/regular_background.jpg");
   width: 80%;
-  height: 300px;
+  height: 350px;
   padding-left: 3.5em;
   padding-right: 3.5em;
   margin-left: auto;
@@ -482,7 +482,7 @@ header, nav, footer, section, article, div {
   }
 
   .work-experience-box {
-    height: 500px;
+    height: 530px;
   }
 
   .research-box {
@@ -586,7 +586,7 @@ header, nav, footer, section, article, div {
   }
 
   .work-experience-box {
-    height: 540px;
+    height: 570px;
   }
 }
 
@@ -597,7 +597,7 @@ header, nav, footer, section, article, div {
   }
 
   .work-experience-box {
-    height: 580px;
+    height: 600px;
   }
 
   .research-box {
@@ -620,11 +620,39 @@ header, nav, footer, section, article, div {
 
 @media screen and (max-width:450px)
 {
-  .research-box {
-    height: 500px;
+  .introduction-box {
+    font-size: 13px;
+  }
+  h1,h3 {
+    font-size: 30px;
   }
 
-  .h1 {
-    font-size: 40px;
+  body {
+    font-size: 12px;
   }
+
+  .work-experience-box {
+    height: 480px;
+  }
+
+  .research-box {
+    height: 350px;
+  }
+
+  .projects-box {
+    height: 550px;
+  }
+
+  .skills-box {
+    height: 220px;
+  }
+
+  .introduce-me-box {
+    min-height: 350px;
+  }
+
+  .education-box{
+    height: 400px;
+  }
+
 }
