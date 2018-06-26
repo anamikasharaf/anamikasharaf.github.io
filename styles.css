@@ -1,0 +1,630 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  /* font-family: "Lucida Console", Monaco, monospace; */
+  font-family: Georgia, serif;
+  font-size: 16px;
+  color: #004d66;
+  background-image: url("./images/header_image.jpg");
+}
+
+h1,h3 {
+  margin: 0;
+  color: #004d66;
+  font-size: 50px;
+}
+
+header, nav, footer, section, article, div {
+  box-sizing: border-box;
+}
+
+/*
+ *
+ * header
+ *
+ */
+
+.header {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+  min-height: 120px;
+  width: 100%;
+  text-align: right;
+
+  /* transition: min-height 0.3s; */
+}
+
+.header__inner {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.5em;
+  text-align: center;
+}
+
+.header__title {
+  font-weight: 300;
+  margin: 1.75em 0.25em;
+  display: inline-block;
+}
+
+.header_position {
+  font-size: 25px;
+  display: inline-block;
+}
+
+/*
+ *
+ * top level navigation
+ *
+ */
+
+.nav {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav__list {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.nav__item {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 19%;
+  text-align: center;
+  line-height: 1.5em;
+  padding: 12px;
+  text-transform: uppercase;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #004d66;
+  padding: 1.5em;
+  font-weight: bold;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+  color: #99003d;
+}
+
+/*
+ *
+ * introduction
+ *
+ */
+
+.introduce-me-box {
+  width: 80%;
+  background-image: url("./images/regular_background.jpg");
+  position: relative;
+  background-size: cover;
+  min-height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  order: 0;
+  border-radius: 50px;
+  box-shadow: 3px 6px 25px #ebe0e0;
+}
+
+.introduction-box {
+  width: 50%;
+  font-size: 16px;
+  padding-top: 3.25em;
+  padding-left: 3.5em;
+  padding-right: 3.5em;
+  line-height: 2;
+  float: left;
+}
+
+.profile-image-box {
+  width: 50%;
+  float: right;
+  padding-top: 3.25em;
+  padding-left: 3.5em;
+}
+
+.profile-image {
+  width: 80%;
+  border-radius: 50px;
+}
+
+/*
+ *
+ * education
+ *
+ */
+
+.education-box {
+   background-image: url("./images/regular_background.jpg");
+   width: 80%;
+   height: 400px;
+   padding-left: 3.5em;
+   padding-right: 3.5em;
+   margin-left: auto;
+   margin-right: auto;
+   order: 1;
+   border-radius: 50px;
+   box-shadow: 3px 6px 25px #ebe0e0;
+ }
+
+.education-degree {
+   width: 100%;
+   height: 75px;
+ }
+
+.minor-info, .major-info {
+   height:5px;
+ }
+
+.education_h4 {
+   height: 10px;
+}
+
+.education_h4 a{
+   text-decoration: none;
+   color: #003cb3;
+}
+
+.education_h4 a:hover {
+   text-decoration: underline;
+   color: #99003d;
+}
+
+.education_h2 {
+   height: 30px;
+   padding-top: 1em;
+}
+
+ /*
+  *
+  * skills
+  *
+  */
+.skills-box {
+  background-image: url("./images/regular_background.jpg");
+  width: 80%;
+  height: 200px;
+  padding-left: 3.5em;
+  padding-right: 3.5em;
+  margin-left: auto;
+  margin-right: auto;
+  order: 2;
+  border-radius: 50px;
+  box-shadow: 3px 6px 25px #ebe0e0;
+}
+
+.skills_h2 {
+  height: 30px;
+  padding-top: 1em;
+}
+
+ /*
+  *
+  * work-experience
+  *
+  */
+
+.work-experience-box {
+  background-image: url("./images/regular_background.jpg");
+  width: 80%;
+  height: 400px;
+  padding-left: 3.5em;
+  padding-right: 3.5em;
+  margin-left: auto;
+  margin-right: auto;
+  order: 3;
+  border-radius: 50px;
+  box-shadow: 3px 6px 25px #ebe0e0;
+}
+
+.work-experience_h2 {
+  height: 30px;
+  padding-top: 1em;
+
+}
+
+.HCL-technologies_h4 {
+  height: 10px;
+}
+
+.HCL-technologies_h2 {
+  font-size: 16px;
+  height: 10px;
+}
+
+.list-box{
+  height: 240px;
+  padding-top: .75em;
+}
+
+.HCL-technologies a {
+  text-decoration: none;
+  color: #003cb3;
+}
+
+.HCL-technologies a:hover {
+  text-decoration: underline;
+  color: #99003d;
+}
+
+.worklist {
+  height: 100px;
+}
+
+/*
+ *
+ * research
+ *
+ */
+
+.research-box {
+  background-image: url("./images/regular_background.jpg");
+  width: 80%;
+  height: 300px;
+  padding-left: 3.5em;
+  padding-right: 3.5em;
+  margin-left: auto;
+  margin-right: auto;
+  order: 4;
+  border-radius: 50px;
+  box-shadow: 3px 6px 25px #ebe0e0;
+}
+
+.research_h2 {
+  height: 10px;
+  padding-top: 1em;
+}
+
+.research-list-box {
+  padding-top: 1em;
+}
+
+.researchlink a{
+  text-decoration: none;
+  color: #003cb3;
+}
+
+.researchlink a:hover {
+  text-decoration: underline;
+  color: #99003d;
+}
+
+/*
+ *
+ * projects
+ *
+ */
+
+.projects-box {
+   background-image: url("./images/regular_background.jpg");
+   width: 80%;
+   height: 520px;
+   padding-left: 3.5em;
+   padding-right: 3.5em;
+   margin-left: auto;
+   margin-right: auto;
+   order: 5;
+   border-radius: 50px;
+   box-shadow: 3px 6px 25px #ebe0e0;
+}
+
+.projects_h2 {
+  padding-top: 1em;
+}
+
+.left1-grid-box, .left2-grid-box {
+   width: 100%;
+   float: left;
+   height: 100px;
+   padding-right: 3em;
+}
+
+.right1-grid-box, .right2-grid-box{
+    width: 100%;
+    float: left;
+    height: 100px;
+    padding-right: 3em;
+}
+
+.projectslink a {
+   text-decoration: none;
+   color: #003cb3;
+}
+
+.projectslink a:hover {
+   text-decoration: underline;
+   color: #99003d;
+   font-size: 18px;
+}
+
+ /*
+  *
+  * contact
+  *
+  */
+
+.contact-box {
+     background-image: url("./images/regular_background.jpg");
+     width: 80%;
+     height: 150px;
+     padding-left: 3.5em;
+     padding-right: 3.5em;
+     margin-left: auto;
+     margin-right: auto;
+     order: 6;
+     border-radius: 50px;
+     box-shadow: 3px 6px 25px #ebe0e0;
+}
+
+.contact_h2 {
+  padding-top: 1em;
+  height: 50px;
+}
+
+.fa {
+  color: #003cb3;
+}
+
+.contact-card a {
+  padding: .6em;
+}
+
+.contact-card a:hover {
+  text-decoration: underline;
+  color: #99003d;
+}
+
+
+ /*
+  *
+  * footer
+  *
+  */
+
+ footer {
+   border-top: 1px solid #004d66;
+   padding: 1em;
+   width: 100%;
+   text-align: center;
+   margin-top: 20px;
+ }
+
+ /*
+  *
+  * responsive
+  *
+  */
+
+.body-content-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header__menu {
+  display: none;
+}
+
+@media screen and (min-width: 1150px) {
+  .profile-image {
+    width: 90%;
+    height: 400px;
+  }
+
+  .introduce-me-box{
+    min-height: 500px;
+  }
+
+  .body-content-box, .introduction-box {
+    font-size: 18px;
+  }
+}
+
+
+ @media screen and (max-width: 1100px) {
+  .introduce-me-box{
+    min-height: 500px;
+  }
+
+  .profile-image {
+    width: 80%;
+    height: 330px;
+  }
+}
+
+
+@media screen and (max-width: 900px) {
+  .introduction-box {
+    width: 60%;
+  }
+
+  .profile-image-box {
+    width:40%;
+  }
+
+  .profile-image {
+    width: 85%;
+    height: 150px;
+  }
+
+  .introduce-me-box {
+    min-height: 400px;
+  }
+}
+
+@media screen and (max-width:780px) {
+  .projects-box{
+    height: 600px;
+  }
+
+  .right1-grid-box, .right2-grid-box {
+    padding-bottom: 8em;
+  }
+
+  .left1-grid-box, .left2-grid-box {
+    padding-bottom: 7em;
+  }
+
+  .skills-box {
+    height: 250px;
+  }
+
+  .introduce-me-box {
+    min-height: 500px;
+  }
+
+  .work-experience-box {
+    height: 500px;
+  }
+
+  .research-box {
+    height: 410px;
+  }
+}
+
+ @media screen and (max-width:680px) {
+
+   .nav {
+     z-index: 10;
+     background-color: #fff;
+     width: 300px;
+     position: absolute;
+     /* This trasform moves the drawer off canvas. */
+     -webkit-transform: translate(-300px, 0);
+     transform: translate(-300px, 0);
+     /* Optionally, we animate the drawer. */
+     transition: transform 0.3s ease;
+     border-radius: 15px;
+   }
+   .nav.open {
+     -webkit-transform: translate(0, 0);
+     transform: translate(0, 0);
+   }
+   .nav__item {
+     display: list-item;
+     border-bottom: 1px solid #003cb3;
+     width: 100%;
+     text-align: left;
+   }
+
+   .header__menu {
+     display: inline-block;
+     position: absolute;
+     right: 0;
+     padding: 1em;
+   }
+   .header__menu svg {
+     width: 32px;
+     fill: #003cb3;
+   }
+
+   .header__title {
+     margin-left: 0;
+     font-size: 2em;
+     vertical-align: bottom;
+   }
+
+   .introduce-me-box {
+     min-height: 370px;
+   }
+
+   .introduction-box {
+      float: none;
+      width: 100%;
+   }
+
+   .profile-image-box {
+     display: none;
+   }
+
+}
+
+@media screen and (max-width:620px) {
+  .break-line {
+    display: none;
+  }
+
+  .education-degree {
+    height: 85px;
+  }
+}
+
+@media screen and (max-width:590px) {
+  .projects-box {
+    height: 670px;
+  }
+
+  .right1-grid-box, .right2-grid-box {
+    padding-bottom: 10em;
+  }
+
+  .left1-grid-box, .left2-grid-box {
+    padding-bottom: 9em;
+  }
+}
+
+@media screen and (max-width:500px) {
+
+  .introduce-me-box {
+    min-height: 420px;
+  }
+
+  .education-box {
+    height: 440px;
+  }
+
+  .skills-box {
+    height: 290px;
+  }
+
+  .work-experience-box {
+    height: 540px;
+  }
+}
+
+@media screen and (max-width:480px)
+{
+  .HCL-technologies_h2 {
+    height: 30px;
+  }
+
+  .work-experience-box {
+    height: 580px;
+  }
+
+  .research-box {
+    height: 470px;
+  }
+
+  .projects-box {
+    height: 740px;
+  }
+
+  .right1-grid-box, .right2-grid-box {
+    padding-bottom: 12em;
+  }
+
+  .h1 {
+    font-size: 40px;
+  }
+
+}
+
+@media screen and (max-width:450px)
+{
+  .research-box {
+    height: 500px;
+  }
+
+  .h1 {
+    font-size: 40px;
+  }
+}
